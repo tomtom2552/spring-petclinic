@@ -42,8 +42,8 @@ import jakarta.persistence.Table;
  * @author Wick Dynex
  */
 @Entity
-@Table(name = "animals")
-public class Animal extends NamedEntity {
+@Table(name = "robots")
+public class Robot extends NamedEntity {
 
 	@Column(name = "birth_date")
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
